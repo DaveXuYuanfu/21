@@ -1,0 +1,41 @@
+# -*- coding:utf-8 -*-
+import requests
+import json
+import string
+import sys
+import pymysql
+# 数据库连接
+conn = pymysql.connect(
+    host='203.195.163.33',
+    port=10010,
+    user='gamer',
+    passwd='pwq10Vmi',
+    db='game1',
+    charset='utf8',
+)
+cur = conn.cursor()
+#a=[[[],[],[]],[[],[]],[[],[]],[[],[]],[[],[]]]
+a = [[0 for i in range(5)] for i in range(5)]
+url1 = "http://119.29.114.101:8004/game?acid=1184&ver=2.1.1"
+data1 = json.dumps({"data":{"playerId":"40006637590","token":"53f64101761a9581691b3c41479e48bc","uid":"7-814007"},"sign":"eb1e7cc70ee1017cd88de6068e7c78ce","ts":1401})
+playerId=int(input("请输入球员ID"))
+status=int(input("请设定球员当前状态(1-5)"))
+for i in range(100):
+    cur.execute("update game_player_instance set p_status="+bytes(status+1)+" where uid='7-814007' and id="+playerId)
+    cur.execute("select p_status from game_player_instance where uid='7-814007' and id="+playerId)
+    #old = cur.fetchone()  # 获取球员在对话前的状态
+    conn.commit()
+    #old = old[0]
+    r1 = requests.post(url1, data1)
+    # 取返回值
+    try:
+        newStatus = (r1.json()["data"]["playerStatus"])#获得球员对话后的状态
+        words=(r1.json()["data"]["playerStatus"])
+    except BaseException:
+        print("第%d次执行出错啦"%i)
+    else:
+        #a[old-1][new-1]+=1
+        print("增长了:%s"%(status-newStatus))
+cur.close()
+conn.commit()
+conn.close()
