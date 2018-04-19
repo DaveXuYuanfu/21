@@ -1,95 +1,55 @@
-2018-04-18T14:18:19.847Z - normal: Load ~/.CocosCreator/settings.json
-2018-04-18T14:18:19.854Z - normal: checking language setting...
-2018-04-18T14:18:19.855Z - normal: Language: zh
-2018-04-18T14:18:21.942Z - success: protocol editor-framework registered
-2018-04-18T14:18:21.943Z - success: protocol app registered
-2018-04-18T14:18:21.943Z - success: protocol theme registered
-2018-04-18T14:18:21.943Z - success: protocol packages registered
-2018-04-18T14:18:21.943Z - success: protocol unpack registerred
-2018-04-18T14:18:21.943Z - success: protocol disable-commonjs registerred
-2018-04-18T14:18:22.148Z - normal: connected!
-2018-04-18T14:18:22.155Z - normal: Check project H:\21\cocos\start_project
-2018-04-18T14:18:22.177Z - normal: Initializing Cocos2d
-2018-04-18T14:18:22.471Z - normal: Initializing Asset Database
-2018-04-18T14:18:22.522Z - success: protocol uuid registerred
-2018-04-18T14:18:22.522Z - success: protocol db registerred
-2018-04-18T14:18:22.522Z - success: protocol thumbnail registerred
-2018-04-18T14:18:22.522Z - normal: Loading editor/builtin packages
-2018-04-18T14:18:22.552Z - success: anysdk loaded
-2018-04-18T14:18:22.713Z - success: assets loaded
-2018-04-18T14:18:22.715Z - success: builder loaded
-2018-04-18T14:18:22.718Z - success: cocos-analytics loaded
-2018-04-18T14:18:22.721Z - success: console loaded
-2018-04-18T14:18:22.777Z - success: fb-instant-games loaded
-2018-04-18T14:18:22.781Z - success: hierarchy loaded
-2018-04-18T14:18:22.784Z - success: inspector loaded
-2018-04-18T14:18:22.786Z - success: keystore loaded
-2018-04-18T14:18:22.789Z - success: node-library loaded
-2018-04-18T14:18:22.791Z - success: package-asset loaded
-2018-04-18T14:18:22.793Z - success: preferences loaded
-2018-04-18T14:18:22.794Z - success: project-exporter loaded
-2018-04-18T14:18:22.814Z - success: project-importer loaded
-2018-04-18T14:18:22.816Z - success: project-settings loaded
-2018-04-18T14:18:22.818Z - success: ui-kit loaded
-2018-04-18T14:18:22.820Z - success: ui-grid loaded
-2018-04-18T14:18:22.823Z - success: scene loaded
-2018-04-18T14:18:22.825Z - success: sprite-editor loaded
-2018-04-18T14:18:22.828Z - success: store loaded
-2018-04-18T14:18:22.833Z - success: timeline loaded
-2018-04-18T14:18:22.833Z - normal: Loading builtin packages
-2018-04-18T14:18:22.836Z - success: asset-db-debugger loaded
-2018-04-18T14:18:22.837Z - success: code-editor loaded
-2018-04-18T14:18:22.838Z - success: color-picker loaded
-2018-04-18T14:18:22.840Z - success: package-manager loaded
-2018-04-18T14:18:22.846Z - success: sdkbox loaded
-2018-04-18T14:18:22.849Z - success: tester loaded
-2018-04-18T14:18:22.851Z - success: ui-kit-preview-extra loaded
-2018-04-18T14:18:22.852Z - success: ui-kit-preview loaded
-2018-04-18T14:18:22.854Z - success: ui-tree loaded
-2018-04-18T14:18:24.345Z - normal: Initializing project H:\21\cocos\start_project
-2018-04-18T14:18:24.355Z - normal: Loading packages
-2018-04-18T14:18:24.361Z - normal: Watching packages
-2018-04-18T14:18:24.376Z - normal: Run Application
-2018-04-18T14:18:25.566Z - success: preview server running at http://localhost:7456
-2018-04-18T14:18:31.009Z - normal: 1.9.0
-2018-04-18T14:22:02.523Z - failed: [db-task][create] Exception  Error: EEXIST: file already exists, mkdir 'H:\21\cocos\start_project\assets\mikado_outline_shadow.png'
-    at fs.mkdirSync (fs.js:895:18)
-    at Object.fs.mkdirSync (ELECTRON_ASAR.js:700:16)
-    at Object.mkdirsSync (H:\program\CocosCreator\resources\app.asar\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:29:9)
-    at s._ensureDirSync (H:\program\CocosCreator\resources\app.asar\asset-db\lib\internal.js:1:3904)
-    at s.Tasks.create (H:\program\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:20199)
-    at _tasks.n.queue (H:\program\CocosCreator\resources\app.asar\asset-db\index.js:1:1866)
-    at H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
-    at Immediate.process (H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
-    at runCallback (timers.js:672:20)
-    at tryOnImmediate (timers.js:645:5)
-2018-04-18T14:22:02.525Z - error: Failed to create asset db://assets/mikado_outline_shadow.png/New Scene.fire, messages: Error: EEXIST: file already exists, mkdir 'H:\21\cocos\start_project\assets\mikado_outline_shadow.png'
-    at fs.mkdirSync (fs.js:895:18)
-    at Object.fs.mkdirSync (ELECTRON_ASAR.js:700:16)
-    at Object.mkdirsSync (H:\program\CocosCreator\resources\app.asar\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:29:9)
-    at s._ensureDirSync (H:\program\CocosCreator\resources\app.asar\asset-db\lib\internal.js:1:3904)
-    at s.Tasks.create (H:\program\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:20199)
-    at _tasks.n.queue (H:\program\CocosCreator\resources\app.asar\asset-db\index.js:1:1866)
-    at H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
-    at Immediate.process (H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
-    at runCallback (timers.js:672:20)
-    at tryOnImmediate (timers.js:645:5)
-    at s.AssetDB.error (H:\program\CocosCreator\resources\app.asar\asset-db\lib\utils.js:1:2606)
-    at Object._tasks.push [as callback] (H:\program\CocosCreator\resources\app.asar\asset-db\lib\interface.js:1:5000)
-    at H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:906:35
-    at _arrayEach (H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:85:13)
-    at H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:898:17
-    at H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:44:16
-    at _tasks.n.queue (H:\program\CocosCreator\resources\app.asar\asset-db\index.js:1:1949)
-    at H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
-    at Immediate.process (H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
-2018-04-18T14:22:02.539Z - error: TypeError: Cannot read property '0' of undefined
-    at file:///H:/program/CocosCreator/resources/app.asar/editor/builtin/assets/panel/panel.js:1:7585
-2018-04-18T14:40:37.011Z - failed: [db-task][move] Exception  TypeError: Cannot read property 'readonly' of null
-    at s.Tasks.move (H:\program\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:24242)
-    at _tasks.n.queue (H:\program\CocosCreator\resources\app.asar\asset-db\index.js:1:1866)
-    at H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
-    at Immediate.process (H:\program\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
-    at runCallback (timers.js:672:20)
-    at tryOnImmediate (timers.js:645:5)
-    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-04-19T04:55:57.673Z - normal: Load ~/.CocosCreator/settings.json
+2018-04-19T04:55:57.680Z - normal: checking language setting...
+2018-04-19T04:55:57.680Z - normal: Language: zh
+2018-04-19T04:56:00.039Z - success: protocol editor-framework registered
+2018-04-19T04:56:00.040Z - success: protocol app registered
+2018-04-19T04:56:00.040Z - success: protocol theme registered
+2018-04-19T04:56:00.040Z - success: protocol packages registered
+2018-04-19T04:56:00.040Z - success: protocol unpack registerred
+2018-04-19T04:56:00.040Z - success: protocol disable-commonjs registerred
+2018-04-19T04:56:00.302Z - normal: connected!
+2018-04-19T04:56:00.304Z - normal: Check project D:\21\cocos\start_project
+2018-04-19T04:56:00.307Z - normal: Initializing Cocos2d
+2018-04-19T04:56:00.704Z - normal: Initializing Asset Database
+2018-04-19T04:56:00.765Z - success: protocol uuid registerred
+2018-04-19T04:56:00.766Z - success: protocol db registerred
+2018-04-19T04:56:00.766Z - success: protocol thumbnail registerred
+2018-04-19T04:56:00.766Z - normal: Loading editor/builtin packages
+2018-04-19T04:56:00.842Z - success: anysdk loaded
+2018-04-19T04:56:01.027Z - success: assets loaded
+2018-04-19T04:56:01.030Z - success: builder loaded
+2018-04-19T04:56:01.033Z - success: cocos-analytics loaded
+2018-04-19T04:56:01.038Z - success: console loaded
+2018-04-19T04:56:01.092Z - success: fb-instant-games loaded
+2018-04-19T04:56:01.097Z - success: hierarchy loaded
+2018-04-19T04:56:01.101Z - success: inspector loaded
+2018-04-19T04:56:01.103Z - success: keystore loaded
+2018-04-19T04:56:01.107Z - success: node-library loaded
+2018-04-19T04:56:01.111Z - success: package-asset loaded
+2018-04-19T04:56:01.114Z - success: preferences loaded
+2018-04-19T04:56:01.116Z - success: project-exporter loaded
+2018-04-19T04:56:01.141Z - success: project-importer loaded
+2018-04-19T04:56:01.144Z - success: project-settings loaded
+2018-04-19T04:56:01.146Z - success: ui-kit loaded
+2018-04-19T04:56:01.149Z - success: ui-grid loaded
+2018-04-19T04:56:01.153Z - success: scene loaded
+2018-04-19T04:56:01.155Z - success: sprite-editor loaded
+2018-04-19T04:56:01.159Z - success: store loaded
+2018-04-19T04:56:01.165Z - success: timeline loaded
+2018-04-19T04:56:01.165Z - normal: Loading builtin packages
+2018-04-19T04:56:01.169Z - success: asset-db-debugger loaded
+2018-04-19T04:56:01.172Z - success: code-editor loaded
+2018-04-19T04:56:01.173Z - success: color-picker loaded
+2018-04-19T04:56:01.175Z - success: package-manager loaded
+2018-04-19T04:56:01.182Z - success: sdkbox loaded
+2018-04-19T04:56:01.186Z - success: tester loaded
+2018-04-19T04:56:01.189Z - success: ui-kit-preview-extra loaded
+2018-04-19T04:56:01.191Z - success: ui-kit-preview loaded
+2018-04-19T04:56:01.200Z - success: ui-tree loaded
+2018-04-19T04:56:02.973Z - normal: Initializing project D:\21\cocos\start_project
+2018-04-19T04:56:02.976Z - normal: Loading packages
+2018-04-19T04:56:02.984Z - normal: Watching packages
+2018-04-19T04:56:03.001Z - normal: Run Application
+2018-04-19T04:56:05.061Z - success: preview server running at http://localhost:7456
+2018-04-19T04:56:12.627Z - normal: 1.9.0
+2018-04-19T05:34:13.591Z - info: shutdown preview server
