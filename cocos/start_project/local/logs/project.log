@@ -1,55 +1,58 @@
-2018-04-19T04:55:57.673Z - normal: Load ~/.CocosCreator/settings.json
-2018-04-19T04:55:57.680Z - normal: checking language setting...
-2018-04-19T04:55:57.680Z - normal: Language: zh
-2018-04-19T04:56:00.039Z - success: protocol editor-framework registered
-2018-04-19T04:56:00.040Z - success: protocol app registered
-2018-04-19T04:56:00.040Z - success: protocol theme registered
-2018-04-19T04:56:00.040Z - success: protocol packages registered
-2018-04-19T04:56:00.040Z - success: protocol unpack registerred
-2018-04-19T04:56:00.040Z - success: protocol disable-commonjs registerred
-2018-04-19T04:56:00.302Z - normal: connected!
-2018-04-19T04:56:00.304Z - normal: Check project D:\21\cocos\start_project
-2018-04-19T04:56:00.307Z - normal: Initializing Cocos2d
-2018-04-19T04:56:00.704Z - normal: Initializing Asset Database
-2018-04-19T04:56:00.765Z - success: protocol uuid registerred
-2018-04-19T04:56:00.766Z - success: protocol db registerred
-2018-04-19T04:56:00.766Z - success: protocol thumbnail registerred
-2018-04-19T04:56:00.766Z - normal: Loading editor/builtin packages
-2018-04-19T04:56:00.842Z - success: anysdk loaded
-2018-04-19T04:56:01.027Z - success: assets loaded
-2018-04-19T04:56:01.030Z - success: builder loaded
-2018-04-19T04:56:01.033Z - success: cocos-analytics loaded
-2018-04-19T04:56:01.038Z - success: console loaded
-2018-04-19T04:56:01.092Z - success: fb-instant-games loaded
-2018-04-19T04:56:01.097Z - success: hierarchy loaded
-2018-04-19T04:56:01.101Z - success: inspector loaded
-2018-04-19T04:56:01.103Z - success: keystore loaded
-2018-04-19T04:56:01.107Z - success: node-library loaded
-2018-04-19T04:56:01.111Z - success: package-asset loaded
-2018-04-19T04:56:01.114Z - success: preferences loaded
-2018-04-19T04:56:01.116Z - success: project-exporter loaded
-2018-04-19T04:56:01.141Z - success: project-importer loaded
-2018-04-19T04:56:01.144Z - success: project-settings loaded
-2018-04-19T04:56:01.146Z - success: ui-kit loaded
-2018-04-19T04:56:01.149Z - success: ui-grid loaded
-2018-04-19T04:56:01.153Z - success: scene loaded
-2018-04-19T04:56:01.155Z - success: sprite-editor loaded
-2018-04-19T04:56:01.159Z - success: store loaded
-2018-04-19T04:56:01.165Z - success: timeline loaded
-2018-04-19T04:56:01.165Z - normal: Loading builtin packages
-2018-04-19T04:56:01.169Z - success: asset-db-debugger loaded
-2018-04-19T04:56:01.172Z - success: code-editor loaded
-2018-04-19T04:56:01.173Z - success: color-picker loaded
-2018-04-19T04:56:01.175Z - success: package-manager loaded
-2018-04-19T04:56:01.182Z - success: sdkbox loaded
-2018-04-19T04:56:01.186Z - success: tester loaded
-2018-04-19T04:56:01.189Z - success: ui-kit-preview-extra loaded
-2018-04-19T04:56:01.191Z - success: ui-kit-preview loaded
-2018-04-19T04:56:01.200Z - success: ui-tree loaded
-2018-04-19T04:56:02.973Z - normal: Initializing project D:\21\cocos\start_project
-2018-04-19T04:56:02.976Z - normal: Loading packages
-2018-04-19T04:56:02.984Z - normal: Watching packages
-2018-04-19T04:56:03.001Z - normal: Run Application
-2018-04-19T04:56:05.061Z - success: preview server running at http://localhost:7456
-2018-04-19T04:56:12.627Z - normal: 1.9.0
-2018-04-19T05:34:13.591Z - info: shutdown preview server
+2018-04-24T15:21:56.947Z - normal: Load ~/.CocosCreator/settings.json
+2018-04-24T15:21:56.954Z - normal: checking language setting...
+2018-04-24T15:21:56.955Z - normal: Language: zh
+2018-04-24T15:21:59.055Z - success: protocol editor-framework registered
+2018-04-24T15:21:59.055Z - success: protocol app registered
+2018-04-24T15:21:59.055Z - success: protocol theme registered
+2018-04-24T15:21:59.055Z - success: protocol packages registered
+2018-04-24T15:21:59.055Z - success: protocol unpack registerred
+2018-04-24T15:21:59.056Z - success: protocol disable-commonjs registerred
+2018-04-24T15:21:59.325Z - normal: connected!
+2018-04-24T15:21:59.328Z - normal: Check project H:\21\cocos\start_project
+2018-04-24T15:21:59.331Z - normal: Initializing Cocos2d
+2018-04-24T15:21:59.635Z - normal: Initializing Asset Database
+2018-04-24T15:21:59.693Z - success: protocol uuid registerred
+2018-04-24T15:21:59.693Z - success: protocol db registerred
+2018-04-24T15:21:59.693Z - success: protocol thumbnail registerred
+2018-04-24T15:21:59.694Z - normal: Loading editor/builtin packages
+2018-04-24T15:21:59.722Z - success: anysdk loaded
+2018-04-24T15:21:59.942Z - success: assets loaded
+2018-04-24T15:21:59.945Z - success: builder loaded
+2018-04-24T15:21:59.948Z - success: cocos-analytics loaded
+2018-04-24T15:21:59.958Z - success: console loaded
+2018-04-24T15:22:00.014Z - success: fb-instant-games loaded
+2018-04-24T15:22:00.018Z - success: hierarchy loaded
+2018-04-24T15:22:00.021Z - success: inspector loaded
+2018-04-24T15:22:00.023Z - success: keystore loaded
+2018-04-24T15:22:00.026Z - success: node-library loaded
+2018-04-24T15:22:00.029Z - success: package-asset loaded
+2018-04-24T15:22:00.031Z - success: preferences loaded
+2018-04-24T15:22:00.033Z - success: project-exporter loaded
+2018-04-24T15:22:00.055Z - success: project-importer loaded
+2018-04-24T15:22:00.057Z - success: project-settings loaded
+2018-04-24T15:22:00.059Z - success: ui-kit loaded
+2018-04-24T15:22:00.061Z - success: ui-grid loaded
+2018-04-24T15:22:00.065Z - success: scene loaded
+2018-04-24T15:22:00.066Z - success: sprite-editor loaded
+2018-04-24T15:22:00.070Z - success: store loaded
+2018-04-24T15:22:00.074Z - success: timeline loaded
+2018-04-24T15:22:00.075Z - normal: Loading builtin packages
+2018-04-24T15:22:00.077Z - success: asset-db-debugger loaded
+2018-04-24T15:22:00.079Z - success: code-editor loaded
+2018-04-24T15:22:00.079Z - success: color-picker loaded
+2018-04-24T15:22:00.082Z - success: package-manager loaded
+2018-04-24T15:22:00.089Z - success: sdkbox loaded
+2018-04-24T15:22:00.092Z - success: tester loaded
+2018-04-24T15:22:00.094Z - success: ui-kit-preview-extra loaded
+2018-04-24T15:22:00.097Z - success: ui-kit-preview loaded
+2018-04-24T15:22:00.098Z - success: ui-tree loaded
+2018-04-24T15:22:01.877Z - normal: Initializing project H:\21\cocos\start_project
+2018-04-24T15:22:01.905Z - normal: Loading packages
+2018-04-24T15:22:01.913Z - normal: Watching packages
+2018-04-24T15:22:01.935Z - normal: Run Application
+2018-04-24T15:22:03.244Z - success: preview server running at http://localhost:7456
+2018-04-24T15:22:09.063Z - normal: 1.9.0
+2018-04-24T15:31:34.812Z - error: Window "main" crashed: [object Object]
+    at WebContents.Window.nativeWin.webContents.on.e (H:\program\CocosCreator\resources\app.asar\editor-framework\lib\main\window.js:1:2853)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)

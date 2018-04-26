@@ -13,7 +13,7 @@ cc.Class({
 
     properties: {
 		jumpHeight:0,
-		jumpDuration:0,
+		jumpDuration:0,//����ʱ��
 		maxMoveSpeed:0,
 		accel:0
         // foo: {
@@ -34,12 +34,57 @@ cc.Class({
     },
 
     // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {},
-
-    start () {
-
+	setJumpAction:function(){
+		var jumpUp=cc.moveBy(this.jumpDuration,cc.p(0,this.jumpHeight)).easing(cc.easeCubicActionOut());
+		var jumpDown=cc.moveBy(this.jumpDuration,cc.p(0,-this.jumpHeight)).easing(cc.easeCubicActionIn());
+		return cc.repeatForever(cc.sequence(jumpUp,jumpDown));
     },
+    setInputControl:function(){
+        var self=this;
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN,function(event){
+            switch(event.keyCode){
+                case cc.KEY.a:
+                    self.accLeft=true;
+                    break;
+                case cc.KEY.d:
+                    self.accRight=true;
+                    break;
+            }
+        });
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP,function(event){
+            switch(event.keyCode){
+                case cc.KEY.a:
+                    self.accLeft=false;
+                    break;
+                case cc.KEY.d:
+                    self.accRight=false;
+                    break;
+            }
+        });
+    },
+    update:function(dt){
+        if (this.accLeft){
+            this.xSpeed-=this.accel*dt;
+        }else if (this.accRight){
+            this.xSpeed+=this.accel*dt;
+        }
+        if (Math.abs(this.xSpeed)>this.maxMoveSpeed){
+            this.xSpeed=this.maxMoveSpeed*this.xSpeed/Math.abs(this.xSpeed);
+        }
+        this.node.x+=this.xSpeed*dt;
+    },
+
+    onLoad:function () {
+		
+			this.jumpAction=this.setJumpAction();
+			this.node.runAction(this.jumpAction);
+        
+            this.accLeft=false;
+            this.accRight=false;
+            this.xSpeed=0;
+
+            this.setInputControl();
+	}
 
     // update (dt) {},
 });

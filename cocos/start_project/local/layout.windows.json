@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 463.5,
+                "height": 463.984375,
                 "type": "panel",
                 "width": 204
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 462.5,
+                "height": 461,
                 "type": "panel",
                 "width": 204
               }
             ],
-            "height": 929,
+            "height": 928,
             "type": "dock-v",
             "width": 204
           },
@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 699.75,
+                    "height": 622,
                     "type": "panel",
                     "width": 1057.984375
                   },
@@ -54,12 +54,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 699.75,
+                    "height": 622,
                     "type": "panel",
                     "width": 309
                   }
                 ],
-                "height": 699.75,
+                "height": 622,
                 "type": "dock-h",
                 "width": 1370
               },
@@ -69,12 +69,12 @@
                   "console",
                   "timeline"
                 ],
-                "height": 226.25,
+                "height": 303,
                 "type": "panel",
                 "width": 1370
               }
             ],
-            "height": 929,
+            "height": 928,
             "type": "dock-v",
             "width": 1370
           },
@@ -83,7 +83,7 @@
             "children": [
               "inspector"
             ],
-            "height": 929,
+            "height": 928,
             "type": "panel",
             "width": 334
           }
@@ -103,8 +103,8 @@
   },
   "panels": {
     "preferences": {
-      "x": 672,
-      "y": 240,
+      "x": 632,
+      "y": 339,
       "width": 580,
       "height": 565
     }
