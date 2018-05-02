@@ -1,118 +1,56 @@
-
-2018-04-24T15:21:56.947Z - normal: Load ~/.CocosCreator/settings.json
-2018-04-24T15:21:56.954Z - normal: checking language setting...
-2018-04-24T15:21:56.955Z - normal: Language: zh
-2018-04-24T15:21:59.055Z - success: protocol editor-framework registered
-2018-04-24T15:21:59.055Z - success: protocol app registered
-2018-04-24T15:21:59.055Z - success: protocol theme registered
-2018-04-24T15:21:59.055Z - success: protocol packages registered
-2018-04-24T15:21:59.055Z - success: protocol unpack registerred
-2018-04-24T15:21:59.056Z - success: protocol disable-commonjs registerred
-2018-04-24T15:21:59.325Z - normal: connected!
-2018-04-24T15:21:59.328Z - normal: Check project H:\21\cocos\start_project
-2018-04-24T15:21:59.331Z - normal: Initializing Cocos2d
-2018-04-24T15:21:59.635Z - normal: Initializing Asset Database
-2018-04-24T15:21:59.693Z - success: protocol uuid registerred
-2018-04-24T15:21:59.693Z - success: protocol db registerred
-2018-04-24T15:21:59.693Z - success: protocol thumbnail registerred
-2018-04-24T15:21:59.694Z - normal: Loading editor/builtin packages
-2018-04-24T15:21:59.722Z - success: anysdk loaded
-2018-04-24T15:21:59.942Z - success: assets loaded
-2018-04-24T15:21:59.945Z - success: builder loaded
-2018-04-24T15:21:59.948Z - success: cocos-analytics loaded
-2018-04-24T15:21:59.958Z - success: console loaded
-2018-04-24T15:22:00.014Z - success: fb-instant-games loaded
-2018-04-24T15:22:00.018Z - success: hierarchy loaded
-2018-04-24T15:22:00.021Z - success: inspector loaded
-2018-04-24T15:22:00.023Z - success: keystore loaded
-2018-04-24T15:22:00.026Z - success: node-library loaded
-2018-04-24T15:22:00.029Z - success: package-asset loaded
-2018-04-24T15:22:00.031Z - success: preferences loaded
-2018-04-24T15:22:00.033Z - success: project-exporter loaded
-2018-04-24T15:22:00.055Z - success: project-importer loaded
-2018-04-24T15:22:00.057Z - success: project-settings loaded
-2018-04-24T15:22:00.059Z - success: ui-kit loaded
-2018-04-24T15:22:00.061Z - success: ui-grid loaded
-2018-04-24T15:22:00.065Z - success: scene loaded
-2018-04-24T15:22:00.066Z - success: sprite-editor loaded
-2018-04-24T15:22:00.070Z - success: store loaded
-2018-04-24T15:22:00.074Z - success: timeline loaded
-2018-04-24T15:22:00.075Z - normal: Loading builtin packages
-2018-04-24T15:22:00.077Z - success: asset-db-debugger loaded
-2018-04-24T15:22:00.079Z - success: code-editor loaded
-2018-04-24T15:22:00.079Z - success: color-picker loaded
-2018-04-24T15:22:00.082Z - success: package-manager loaded
-2018-04-24T15:22:00.089Z - success: sdkbox loaded
-2018-04-24T15:22:00.092Z - success: tester loaded
-2018-04-24T15:22:00.094Z - success: ui-kit-preview-extra loaded
-2018-04-24T15:22:00.097Z - success: ui-kit-preview loaded
-2018-04-24T15:22:00.098Z - success: ui-tree loaded
-2018-04-24T15:22:01.877Z - normal: Initializing project H:\21\cocos\start_project
-2018-04-24T15:22:01.905Z - normal: Loading packages
-2018-04-24T15:22:01.913Z - normal: Watching packages
-2018-04-24T15:22:01.935Z - normal: Run Application
-2018-04-24T15:22:03.244Z - success: preview server running at http://localhost:7456
-2018-04-24T15:22:09.063Z - normal: 1.9.0
-2018-04-24T15:31:34.812Z - error: Window "main" crashed: [object Object]
-    at WebContents.Window.nativeWin.webContents.on.e (H:\program\CocosCreator\resources\app.asar\editor-framework\lib\main\window.js:1:2853)
-    at emitTwo (events.js:106:13)
-    at WebContents.emit (events.js:194:7)
-
-2018-04-26T09:09:24.143Z - normal: Load ~/.CocosCreator/settings.json
-2018-04-26T09:09:24.159Z - normal: checking language setting...
-2018-04-26T09:09:24.160Z - normal: Language: zh
-2018-04-26T09:09:28.733Z - success: protocol editor-framework registered
-2018-04-26T09:09:28.734Z - success: protocol app registered
-2018-04-26T09:09:28.734Z - success: protocol theme registered
-2018-04-26T09:09:28.734Z - success: protocol packages registered
-2018-04-26T09:09:28.736Z - success: protocol unpack registerred
-2018-04-26T09:09:28.737Z - success: protocol disable-commonjs registerred
-2018-04-26T09:09:29.096Z - normal: connected!
-2018-04-26T09:09:29.102Z - normal: Check project D:\21\cocos\start_project
-2018-04-26T09:09:29.107Z - normal: Initializing Cocos2d
-2018-04-26T09:09:30.248Z - normal: Initializing Asset Database
-2018-04-26T09:09:30.336Z - success: protocol uuid registerred
-2018-04-26T09:09:30.336Z - success: protocol db registerred
-2018-04-26T09:09:30.336Z - success: protocol thumbnail registerred
-2018-04-26T09:09:30.337Z - normal: Loading editor/builtin packages
-2018-04-26T09:09:30.448Z - success: anysdk loaded
-2018-04-26T09:09:30.912Z - success: assets loaded
-2018-04-26T09:09:30.920Z - success: builder loaded
-2018-04-26T09:09:30.938Z - success: cocos-analytics loaded
-2018-04-26T09:09:30.958Z - success: console loaded
-2018-04-26T09:09:31.071Z - success: fb-instant-games loaded
-2018-04-26T09:09:31.085Z - success: hierarchy loaded
-2018-04-26T09:09:31.138Z - success: inspector loaded
-2018-04-26T09:09:31.157Z - success: keystore loaded
-2018-04-26T09:09:31.167Z - success: node-library loaded
-2018-04-26T09:09:31.176Z - success: package-asset loaded
-2018-04-26T09:09:31.190Z - success: preferences loaded
-2018-04-26T09:09:31.200Z - success: project-exporter loaded
-2018-04-26T09:09:31.248Z - success: project-importer loaded
-2018-04-26T09:09:31.252Z - success: project-settings loaded
-2018-04-26T09:09:31.264Z - success: ui-kit loaded
-2018-04-26T09:09:31.277Z - success: ui-grid loaded
-2018-04-26T09:09:31.305Z - success: scene loaded
-2018-04-26T09:09:31.318Z - success: sprite-editor loaded
-2018-04-26T09:09:31.338Z - success: store loaded
-2018-04-26T09:09:31.350Z - success: timeline loaded
-2018-04-26T09:09:31.351Z - normal: Loading builtin packages
-2018-04-26T09:09:31.359Z - success: asset-db-debugger loaded
-2018-04-26T09:09:31.374Z - success: code-editor loaded
-2018-04-26T09:09:31.375Z - success: color-picker loaded
-2018-04-26T09:09:31.387Z - success: package-manager loaded
-2018-04-26T09:09:31.405Z - success: sdkbox loaded
-2018-04-26T09:09:31.411Z - success: tester loaded
-2018-04-26T09:09:31.416Z - success: ui-kit-preview-extra loaded
-2018-04-26T09:09:31.421Z - success: ui-kit-preview loaded
-2018-04-26T09:09:31.424Z - success: ui-tree loaded
-2018-04-26T09:09:35.391Z - normal: Initializing project D:\21\cocos\start_project
-2018-04-26T09:09:35.401Z - normal: Loading packages
-2018-04-26T09:09:35.414Z - normal: Watching packages
-2018-04-26T09:09:35.470Z - normal: Run Application
-2018-04-26T09:09:37.351Z - success: preview server running at http://localhost:7456
-2018-04-26T09:09:51.496Z - success: VS Code extension installed to C:\Users\Administrator\.vscode\extensions
-2018-04-26T09:09:51.783Z - normal: 1.9.0
-2018-04-26T09:10:21.334Z - success: API data generated and copied to D:\21\cocos\start_project\creator.d.ts
-2018-04-26T09:13:01.614Z - info: shutdown preview server
-
+2018-05-02T14:29:12.060Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-02T14:29:12.069Z - normal: checking language setting...
+2018-05-02T14:29:12.069Z - normal: Language: zh
+2018-05-02T14:29:17.101Z - success: protocol editor-framework registered
+2018-05-02T14:29:17.101Z - success: protocol app registered
+2018-05-02T14:29:17.101Z - success: protocol theme registered
+2018-05-02T14:29:17.101Z - success: protocol packages registered
+2018-05-02T14:29:17.101Z - success: protocol unpack registerred
+2018-05-02T14:29:17.101Z - success: protocol disable-commonjs registerred
+2018-05-02T14:29:17.366Z - normal: connected!
+2018-05-02T14:29:17.370Z - normal: Check project H:\21\cocos\start_project
+2018-05-02T14:29:17.373Z - normal: Initializing Cocos2d
+2018-05-02T14:29:19.097Z - normal: Initializing Asset Database
+2018-05-02T14:29:19.151Z - success: protocol uuid registerred
+2018-05-02T14:29:19.151Z - success: protocol db registerred
+2018-05-02T14:29:19.151Z - success: protocol thumbnail registerred
+2018-05-02T14:29:19.152Z - normal: Loading editor/builtin packages
+2018-05-02T14:29:19.178Z - success: anysdk loaded
+2018-05-02T14:29:19.348Z - success: assets loaded
+2018-05-02T14:29:19.351Z - success: builder loaded
+2018-05-02T14:29:19.353Z - success: cocos-analytics loaded
+2018-05-02T14:29:19.363Z - success: console loaded
+2018-05-02T14:29:19.414Z - success: fb-instant-games loaded
+2018-05-02T14:29:19.417Z - success: hierarchy loaded
+2018-05-02T14:29:19.421Z - success: inspector loaded
+2018-05-02T14:29:19.422Z - success: keystore loaded
+2018-05-02T14:29:19.426Z - success: node-library loaded
+2018-05-02T14:29:19.428Z - success: package-asset loaded
+2018-05-02T14:29:19.431Z - success: preferences loaded
+2018-05-02T14:29:19.432Z - success: project-exporter loaded
+2018-05-02T14:29:19.453Z - success: project-importer loaded
+2018-05-02T14:29:19.457Z - success: project-settings loaded
+2018-05-02T14:29:19.459Z - success: ui-kit loaded
+2018-05-02T14:29:19.462Z - success: ui-grid loaded
+2018-05-02T14:29:19.466Z - success: scene loaded
+2018-05-02T14:29:19.467Z - success: sprite-editor loaded
+2018-05-02T14:29:19.471Z - success: store loaded
+2018-05-02T14:29:19.477Z - success: timeline loaded
+2018-05-02T14:29:19.477Z - normal: Loading builtin packages
+2018-05-02T14:29:19.480Z - success: asset-db-debugger loaded
+2018-05-02T14:29:19.481Z - success: code-editor loaded
+2018-05-02T14:29:19.482Z - success: color-picker loaded
+2018-05-02T14:29:19.485Z - success: package-manager loaded
+2018-05-02T14:29:19.492Z - success: sdkbox loaded
+2018-05-02T14:29:19.495Z - success: tester loaded
+2018-05-02T14:29:19.498Z - success: ui-kit-preview-extra loaded
+2018-05-02T14:29:19.499Z - success: ui-kit-preview loaded
+2018-05-02T14:29:19.501Z - success: ui-tree loaded
+2018-05-02T14:29:21.285Z - normal: Initializing project H:\21\cocos\start_project
+2018-05-02T14:29:21.304Z - normal: Loading packages
+2018-05-02T14:29:21.310Z - normal: Watching packages
+2018-05-02T14:29:21.329Z - normal: Run Application
+2018-05-02T14:29:23.429Z - success: preview server running at http://localhost:7456
+2018-05-02T14:29:31.282Z - normal: 1.9.0
+2018-05-02T14:41:48.780Z - success: VS Code extension installed to X:\Users\mylov\.vscode\extensions
+2018-05-02T14:42:33.348Z - success: API data generated and copied to H:\21\cocos\start_project\creator.d.ts

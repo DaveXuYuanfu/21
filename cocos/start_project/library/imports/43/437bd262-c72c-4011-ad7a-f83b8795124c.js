@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '437bdJixyxAEa16+DuHlRJM', 'player');
-// scripts/player.js
+cc._RF.push(module, '437bdJixyxAEa16+DuHlRJM', 'Player');
+// scripts/Player.js
 
 "use strict";
 

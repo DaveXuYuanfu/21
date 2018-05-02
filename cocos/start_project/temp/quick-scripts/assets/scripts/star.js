@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/star.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'bcdeafbkZNNFo1id7/Hhy2w', 'star', __filename);
-// scripts/star.js
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/Star.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, 'bcdeafbkZNNFo1id7/Hhy2w', 'Star', __filename);
+// scripts/Star.js
 
 "use strict";
 
@@ -42,11 +42,30 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
+    // getPlayerDistance:function(){
+    //     // 根据 player 节点位置判断距离
+    //     cc.log(this.game);
+    //     var playerPos=this.game.player.getPosition();
+    //     // 根据两点位置计算两点之间距离
+    //     var distance=cc.pDistance(this.node.position,playerPos);
+    //     return distance;
+    // },
+    // onpicked:function(){
+    //     // 当星星被收集时，调用 Game 脚本中的接口，生成一个新的星星
+    //     this.game.spawnNewStar();
+    //     // 然后销毁当前星星节点
+    //     this.node.destroy();
+    // },
 
     start: function start() {}
 }
 
-// update (dt) {},
+// update (dt) {
+//     if (this.getPlayerDistance()<this.pickRadius){
+//         this.onpicked();
+//         return;
+//     }
+// },
 );
 
 cc._RF.pop();
@@ -60,5 +79,5 @@ cc._RF.pop();
             });
         }
         })();
-        //# sourceMappingURL=star.js.map
+        //# sourceMappingURL=Star.js.map
         

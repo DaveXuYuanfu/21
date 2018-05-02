@@ -18,8 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-
-                "height": 464,
+                "height": 463.5,
                 "type": "panel",
                 "width": 204
               },
@@ -28,9 +27,7 @@
                 "children": [
                   "assets"
                 ],
-
-                
-                "height": 462,
+                "height": 461.5,
                 "type": "panel",
                 "width": 204
               }
@@ -48,8 +45,7 @@
                     "children": [
                       "scene"
                     ],
-
-                    "height": 700,
+                    "height": 494,
                     "type": "panel",
                     "width": 1057.984375
                   },
@@ -58,12 +54,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 700,
+                    "height": 494,
                     "type": "panel",
                     "width": 309
                   }
                 ],
-                "height": 700,
+                "height": 494,
                 "type": "dock-h",
                 "width": 1370
               },
@@ -73,7 +69,7 @@
                   "console",
                   "timeline"
                 ],
-                "height": 226,
+                "height": 431,
                 "type": "panel",
                 "width": 1370
               }
